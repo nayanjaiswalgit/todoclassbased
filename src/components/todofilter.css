@@ -1,0 +1,30 @@
+.filter {
+   
+    background-color: white;
+    border-radius: 5px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 13rem;
+    height: 3rem;
+    position: relative;
+}
+.dropdown {
+    background-color: transparent;
+    appearance: none;
+    outline: none;
+    border: none;
+    font-family: 'Poppins', sans-serif;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
+    font-size: medium;
+    margin-left: 1rem;
+   
+}
+.btnab {
+    position: absolute;
+    right: 0;
+    top:0;
+}

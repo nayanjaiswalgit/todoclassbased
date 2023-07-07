@@ -1,0 +1,57 @@
+.todoitem {
+  width: 35vw;
+  justify-content: space-between;
+  background-color: white;
+  display: flex;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+  max-height: 3rem;
+  overflow: none;
+  min-width: 20rem;
+ 
+  
+ 
+}
+
+.deleteanimation {
+  transition: 2s;
+  transform:translatex(1000px)
+}
+.todoitemdone{
+ 
+  opacity: 50%;
+  
+
+} 
+.flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.done {
+  background-color: rgb(8, 194, 8);
+}
+
+.delete {
+  background-color: rgb(255, 29, 29);
+}
+.todotask {
+  color: black;
+  padding: 5px 10px;
+ 
+  overflow: hidden;
+  
+}
+.logobtn {
+  width: 3rem;
+  height: 3rem;
+  color: white;
+  border: none;
+  font-size: x-large;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  
+}
+
